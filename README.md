@@ -19,6 +19,8 @@ In this assestment, you have to create a website view looks like the given desig
 - [ ] Give the document icon
 - [ ] Connect `styled.css` to `index.html` for applying the style
 - [ ] Make website view looks like the design (you don't have to make it pixel perfect)
+- [ ] In `header` section put your git username and make it directed in new tab to its profile when clicked
+- [ ] In `location` section each card should be directed in new tab to its web, for instance Tokopedia card directed to https://www.tokopedia.com/
 - [ ] Push your result in your git repository
 
 Extra miles 🚀🚀🚀
