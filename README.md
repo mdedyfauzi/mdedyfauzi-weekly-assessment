@@ -1,4 +1,4 @@
-# OH WEEKLY ASSESsMENT 1
+# OH WEEKLY ASSESSMENT 1
 
 In this assessment, you have to create a website view looks like the given design. The purpose of this assessment is to practice your undestanding in basic usage of HTML and CSS to make a website view. You have already provided with some HTML and CSS file that you can use, so you don't have too make it from scratch, and you can just continue it. But, if you want it make it from scratch then do it, whichever make you comfortable to complete this task, you choose. Please deliver this assessment on time no matter what results you make! Thank you.
 
