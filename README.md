@@ -3,6 +3,7 @@
 In this assestment, you have to create a website view looks like the given design. The purpose of this assestment is to practice your undestanding in basic usage of HTML and CSS to make a website view. You have already provided with some HTML and CSS file that you can use, so you don't have too make it from scratch, and you can just continue it. But, if you want it make it from scratch then do it, whichever make you comfortable to complete this task, you choose. Please deliver this assestment on time no matter what results you make! Thank you.
 
 **Design file**: https://www.figma.com/file/BJ4opqkfVjrFZiPYHnC63E/oh-assestment?node-id=0%3A1
+
 **Deadline**: Friday, 15 October 2021, 23:59 WIB
 
 ## Instructions
