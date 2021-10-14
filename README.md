@@ -15,18 +15,18 @@ In this assessment, you have to create a website view looks like the given desig
 
 ## Task Requirements
 
-- [ ] Give the document title with `Weekly Assessment 1`
-- [ ] Give the document icon
-- [ ] Connect `styled.css` to `index.html` for applying the style
-- [ ] Make website view looks like the design (you don't have to make it pixel perfect)
-- [ ] In `header` section put your git username and make it directed in new tab to its profile when clicked
-- [ ] In `hero` section make button linked to `location` section
-- [ ] In `location` section each card should be directed in new tab to its web, for instance Tokopedia card directed to https://www.tokopedia.com/
-- [ ] Push your result in your git repository
+- [x] Give the document title with `Weekly Assessment 1`
+- [x] Give the document icon
+- [x] Connect `styled.css` to `index.html` for applying the style
+- [x] Make website view looks like the design (you don't have to make it pixel perfect)
+- [x] In `header` section put your git username and make it directed in new tab to its profile when clicked
+- [x] In `hero` section make button linked to `location` section
+- [x] In `location` section each card should be directed in new tab to its web, for instance Tokopedia card directed to https://www.tokopedia.com/
+- [x] Push your result in your git repository
 
 Extra miles 🚀🚀🚀
 
-- [ ] Make it responsive in mobile view
+- [x] Make it responsive in mobile view (work on figma design resolution)
 
 ## References
 
