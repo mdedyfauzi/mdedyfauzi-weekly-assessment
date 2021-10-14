@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -15,6 +17,22 @@ body {
 
 /* HEADER */
 .header {
+  width: 100%;
+  height: 100px;
+  background-color: #385a64;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.header h1 {
+  height: 65.44px;
+  padding-left: 162px;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #f0f0f0;
 }
 
 /* HERO */
@@ -23,24 +41,53 @@ body {
 }
 
 .hero__wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 53px 0px;
 }
 
 .hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .hero__image {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 47px;
 }
 
 .hero__image img {
+  width: 442px;
+  height: 442px;
 }
 
 .hero__title {
+  width: fit-content;
+  height: fit-content;
+  font-size: 48px;
+  line-height: 56px;
+  margin-top: 93px;
+}
+.hero__title span {
+  color: #ff735c;
 }
 
 .hero__description {
+  width: 72%;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 32px;
+  margin-bottom: 63.19px;
 }
 
 .hero__actions {
+  margin-bottom: 93px;
 }
 
 /* LOCATION */
@@ -50,20 +97,42 @@ body {
   border: 2px solid #f0f0f0;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   min-height: 100px;
+  padding-bottom: 73px;
 }
 
 .location__content {
   padding: 50px 0;
+  margin-bottom: 23px;
 }
 
 .location__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ff735c;
 }
 
 .location__cards {
+  padding-top: 23px;
+  width: auto;
+  display: flex;
+  justify-content: center;
 }
 
 /* FOOTER */
 .footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #0c0f53;
+  padding: 53px;
 }
 
 /* BUTTON COMPONENT */
@@ -85,11 +154,21 @@ body {
 
 /* CARD COMPONENT */
 .card {
-  width: 30%;
+  width: 95%;
+  height: 355px;
   padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .card__wrapper {
+  width: 313px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,7 +224,7 @@ body {
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
-  color: #e9f5f3;
+  color: #385a64;
 }
 
 .card__description {
@@ -155,3 +234,96 @@ body {
 }
 
 /* RESPONSIVE */
+@media (max-width: 375px) {
+  .header {
+    width: auto;
+  }
+
+  .header h1 {
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 42.19px;
+  }
+
+  .hero__wrapper {
+    flex-direction: column-reverse;
+    margin-bottom: 0px;
+  }
+
+  .hero__title {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 32px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hero__description {
+    width: 90%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hero__actions {
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .btn {
+    width: 304px;
+    height: 36.32px;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px 109px;
+  }
+
+  .hero__image {
+    margin: auto;
+  }
+
+  .hero__image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .location {
+    padding: 0px;
+  }
+
+  .location__content {
+    padding-bottom: 0px;
+  }
+
+  a {
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+
+  .location__title {
+    font-size: 36px;
+    line-height: 42px;
+    color: #385a64;
+  }
+
+  .card {
+    height: auto;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weekly Assessment 1</title>
   </head>
 
   <body>
     <div class="page">
       <!-- HEADER SECTION -->
-
+      <div class="header">
+        <a href="https://gitlab.com/mdedyfauzi" target="_blank"><h1>@mdedyfauzi</h1></a>
+      </div>
       <!-- HERO SECTION -->
       <div class="hero">
         <div class="container">
@@ -18,18 +23,16 @@
               <div class="hero__text">
                 <h1 class="hero__title">Let's go <span>Shopping</span></h1>
                 <p class="hero__description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum, esse! Eligendi veritatis animi magni voluptas aliquam
-                  commodi quisquam illum nemo in quaerat itaque, tempore porro
-                  ipsa, recusandae deserunt illo suscipit!
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas quis. Proin sagittis nisl rhoncus mattis rhoncus urna. Cum sociis
+                  natoque penatibus et magnis dis parturient.
                 </p>
               </div>
               <div class="hero__actions">
-                <button class="btn">Shop now!</button>
+                <button class="btn" onclick="window.location.href='#loc'">Shop now!</button>
               </div>
             </div>
             <div class="hero__image">
-              <img src="hero.jpg" alt="hero" />
+              <img src="images/hero.jpg" alt="hero" />
             </div>
           </div>
         </div>
@@ -38,32 +41,60 @@
       <!-- LOCATION SECTION -->
       <div class="location">
         <div class="container">
-          <div class="location__content">
+          <div id="loc" class="location__content">
             <div class="location__title">Location</div>
             <div class="location__cards">
               <div class="card">
-                <div class="card__wrapper">
-                  <div class="card__header">
-                    <img src="tokped.png" alt="tokped" />
-                    <div class="card__point"><span>4.6</span></div>
-                  </div>
-                  <div class="card__body">
-                    <h6 class="card__title">Tokopedia</h6>
-                    <div class="card__description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Ullam ut illum dolores dignissimos ipsa ducimus harum
-                      aspernatur quam in eveniet, consequatur inventore
-                      officiis, tempore pariatur incidunt, vero adipisci quae
-                      tenetur.
+                <a id="tokopedia" href="https://www.tokopedia.com/" target="_blank">
+                  <div class="card__wrapper">
+                    <div class="card__header">
+                      <img src="images/tokped.png" alt="tokped" />
+                      <div class="card__point"><span>4.6</span></div>
+                    </div>
+                    <div class="card__body">
+                      <h6 class="card__title">Tokopedia</h6>
+                      <div class="card__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ut illum dolores dignissimos ipsa ducimus harum aspernatur quam in eveniet, consequatur inventore officiis, tempore pariatur incidunt, vero adipisci quae
+                        tenetur.
+                      </div>
                     </div>
                   </div>
-                </div>
+                </a>
+                <a id="bukalapak" href="https://www.bukalapak.com/" target="_blank">
+                  <div class="card__wrapper">
+                    <div class="card__header">
+                      <img src="images/bukalapak.png" alt="bukalapak" />
+                      <div class="card__point"><span>4.7</span></div>
+                    </div>
+                    <div class="card__body">
+                      <h6 class="card__title">Bukalapak</h6>
+                      <div class="card__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ut illum dolores dignissimos ipsa ducimus harum aspernatur quam in eveniet, consequatur inventore officiis, tempore pariatur incidunt, vero adipisci quae
+                        tenetur.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a id="shopee" href="https://shopee.co.id/" target="_blank">
+                  <div class="card__wrapper">
+                    <div class="card__header">
+                      <img src="images/shopee.png" alt="shopee" />
+                      <div class="card__point"><span>4.6</span></div>
+                    </div>
+                    <div class="card__body">
+                      <h6 class="card__title">Shopee</h6>
+                      <div class="card__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ut illum dolores dignissimos ipsa ducimus harum aspernatur quam in eveniet, consequatur inventore officiis, tempore pariatur incidunt, vero adipisci quae
+                        tenetur.
+                      </div>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <!-- FOOTER SECTION -->
       <div class="footer">©2021 office-hour-assestment-1</div>
     </div>
