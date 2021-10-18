@@ -14,7 +14,7 @@ In this assessment, you have to answer some basic question about Javascript and 
 
 ## Task Requirements
 
-- [ ] Complete Task 1: Understanding Javascript
+- [ ] Complete [Task 1: Understanding Javascript](#task-1:-undersetanding-javascript)
 - [ ] Complete Task 2: printNumberAscending.js
 - [ ] Complete Task 3: printNumberDescending.js
 - [ ] Complete Task 4: oddEven.js
