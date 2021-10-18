@@ -1,6 +1,6 @@
 # OH WEEKLY ASSESSMENT 2
 
-In this assessment, you have to answer some basic question about Javascript and solve some problems using Javascript. You can find the answer from the internet or from your friend, but make sure you understand what you are doing. Please deliver this assessment on time no matter what results you make! Thank you.
+In this assessment, you have to answer some basic question about Javascript and solve some problems using Javascript. You can find the answer from the internet or by discussing with your friend, but make sure you understand what you are doing. Please deliver this assessment on time no matter what results you make! Thank you.
 
 **Deadline**: Friday, 22 October 2021, 23:59 WIB
 
