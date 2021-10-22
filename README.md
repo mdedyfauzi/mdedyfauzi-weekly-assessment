@@ -14,13 +14,13 @@ In this assessment, you have to answer some basic question about Javascript and 
 
 ## Task Requirements
 
-- [ ] Complete Task 1: Understanding Javascript
-- [ ] Complete Task 2: printNumberAscending.js
-- [ ] Complete Task 3: printNumberDescending.js
-- [ ] Complete Task 4: oddEven.js
-- [ ] Complete Task 5: oddEvenArray.js
-- [ ] Complete Task 6: fizzBuzz.js
-- [ ] Push your result in your git repository
+- [x] Complete Task 1: Understanding Javascript
+- [x] Complete Task 2: printNumberAscending.js
+- [x] Complete Task 3: printNumberDescending.js
+- [x] Complete Task 4: oddEven.js
+- [x] Complete Task 5: oddEvenArray.js
+- [x] Complete Task 6: fizzBuzz.js (loop direction horizontally)
+- [x] Push your result in your git repository
 
 Extra miles 🚀🚀🚀
 

@@ -1,7 +1,10 @@
 // write function here
-const printNumberAscending = () => {
-  return;
-};
+function printNumberAscending(number) {
+  for (var i = 0; i <= number; i++) {
+    console.log(i);
+  }
+  return number;
+}
 
 // input test
 const input1 = 5;
