@@ -11,9 +11,8 @@ body {
 }
 
 .container {
-  max-width: 80rem;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 78.75rem;
+  margin: auto;
 }
 
 .form {
@@ -22,7 +21,7 @@ body {
 
 .textContent {
   width: 39.4375rem;
-  height: auto;
+  height: 52.875rem;
   background-image: linear-gradient(rgba(82, 0, 255, 0.8), rgba(82, 0, 255, 0.8)), url('background.jpeg');
   background-position: right;
   background-repeat: no-repeat;
