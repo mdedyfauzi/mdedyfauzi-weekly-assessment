@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form {
+  display: flex;
+}
+
+.textContent {
+  width: 39.4375rem;
+  height: auto;
+  background-image: linear-gradient(rgba(82, 0, 255, 0.8), rgba(82, 0, 255, 0.8)), url('background.jpeg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-wrapper {
+  color: white;
+  width: 26.4375rem;
+  height: 14.9375rem;
+}
+
+.text-wrapper h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4rem;
+  text-align: right;
+  line-height: 4.8125rem;
+  margin-bottom: 1.6875rem;
+}
+
+.text-wrapper p {
+  font-size: 1.5rem;
+  text-align: right;
+  line-height: 2.25rem;
+}
+
+.inputContent {
+  width: 39.4375rem;
+  height: 52.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-wrapper p {
+  margin-bottom: 0.875rem;
+}
+
+.box {
+  margin-bottom: 1.25rem;
+}
+
+.btn {
+  margin-top: 1.25rem;
+}
+
+@media only screen and (max-width: 48.125rem) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textContent {
+    width: 48.125rem;
+    height: 36rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-wrapper {
+    width: 40.125rem;
+    height: 22.1875rem;
+  }
+
+  .text-wrapper h1 {
+    padding: 0rem 3.75rem;
+    text-align: center;
+  }
+
+  .text-wrapper p {
+    text-align: center;
+  }
+
+  .inputContent {
+    height: fit-content;
+    width: 48.125rem;
+    display: block;
+  }
+
+  .item-wrapper {
+    display: flex;
+  }
+  .wrapper {
+    margin-top: 5.125rem;
+    margin-bottom: 3.6875rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .item {
+    display: flex;
+  }
+
+  .wrap {
+    margin-right: 2.4375rem;
+  }
+
+  .box {
+    width: 18.9375rem;
+    height: 4.0625rem;
+  }
+
+  @media only screen and (max-width: 31.875rem) {
+    .textContent {
+      width: 31.875rem;
+    }
+
+    .text-wrapper {
+      width: 31.25rem;
+      height: 22.125rem;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+    }
+    .inputContent {
+      height: fit-content;
+      width: 31.875rem;
+      display: block;
+    }
+
+    .box {
+      width: 26.375rem;
+    }
+
+    .btn {
+      width: 26.375rem;
+    }
+
+    .wrapper {
+      margin-bottom: 6.5625rem;
+    }
+  }
+}

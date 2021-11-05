@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+input {
+  width: 26.375rem;
+  height: 4.0625rem;
+  background-color: #ededed;
+  border-color: #c7c7c7;
+  border-width: 0.0625rem;
+}
