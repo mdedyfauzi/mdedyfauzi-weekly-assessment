@@ -11,8 +11,7 @@
 **The Answers**
 
 1. The difference is **Javascript** was a programming language which is widely used for web development. **HTML** is a Markup Language in which a format in writing where the text will be processed into display.
-2. The difference is `var` declarations are globally scoped or function/locally scoped and for the `let`, `let` is block scoped where a chunk of code bounded by {}. A block lives in curly braces. Anything within curly braces is a block.The last one is `const`, `const` declarations are block scoped it means const can only be accessed within the block they were declared.
-   const cannot be updated or re-declared.
+2. The difference is `var` declarations are globally scoped or function/locally scoped and for the `let`, `let` is block scoped where a chunk of code bounded by {}. A block lives in curly braces. Anything within curly braces is a block.The last one is `const`, `const` declarations are block scoped it means const can only be accessed within the block they were declared. Const cannot be updated or re-declared.
 3. **Data Types** in javascript:
    - Primitives Data Type :
      - Char
