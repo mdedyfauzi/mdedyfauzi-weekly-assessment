@@ -24,7 +24,7 @@ In this assessment, you have to answer some basic question about Javascript and 
 
 Extra miles 🚀🚀🚀
 
-- [ ] Complete Task 7: sumArray.js
+- [x] Complete Task 7: sumArray.js
 
 ## Tasks
 
